@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Titulo.css";
-
+ 
 class Titulo extends Component {
   render() {
     const user = {

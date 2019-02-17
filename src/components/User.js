@@ -2,9 +2,12 @@ import React from "react";
 
 const user = (props) => {
     return (
-        <h2>
-            Hola, {props.firstName} {props.lastName}!
-        </h2> 
+      <div>
+      <h2 style={{backgroundColor:props.theColor}}>
+          Hello, {props.firstName} {props.lastName}!
+      </h2> 
+      <img src={props.image} width='370' height='300' />
+  </div>
     )
 }
 
